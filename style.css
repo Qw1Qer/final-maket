@@ -734,8 +734,8 @@ button {
 
 @media (min-width: 1440px) {
   .page {
-    position: absolute;
-    left: 300px;
+    margin-left: 300px;
+    /* Смещение без absolute */
     overflow-x: hidden; }
   .content {
     margin-left: 32px;
