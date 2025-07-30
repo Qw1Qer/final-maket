@@ -700,8 +700,6 @@ button {
 @media (min-width: 768px) {
   .shadow {
     display: none; }
-  .service__title {
-    padding-left: 15px; }
   .about__paragraphs {
     width: 312px;
     height: 130px; }
@@ -864,7 +862,7 @@ button {
 
 .header__button {
   border: none;
-  color: white;
+  color: #FFFFFF;
   font-size: 24px;
   cursor: pointer;
   margin-left: 10px;
@@ -974,7 +972,7 @@ button {
   height: 100vh;
   background-color: #FFFFFF;
   justify-content: flex-start;
-  box-shadow: 16px 0 52px 0 rgba(14, 24, 80, 0.2), -2px 0 4px 0 rgba(69, 79, 126, 0.02);
+  box-shadow: 16px 0px 52px 0px #0E185033, -2px 0px 4px 0px #454F7E05;
   font-size: 16px;
   color: #1B1C21;
   font-weight: 500;
@@ -1267,7 +1265,7 @@ input::placeholder {
     color: #FF3E79; }
 
 .sidebar__button {
-  color: white;
+  color: #FFFFFF;
   width: 136px;
   height: 32px;
   background-color: #FF3E79;
@@ -1381,7 +1379,7 @@ input::placeholder {
     color: #FF3E79; }
 
 .call__button {
-  color: white;
+  color: #FFFFFF;
   width: 136px;
   height: 32px;
   background-color: #FF3E79;
@@ -1443,7 +1441,7 @@ input::placeholder {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: white;
+  background-color: #FFFFFF;
   border: 1px solid #EAEAEA;
   width: 230px;
   height: 72px;
@@ -1559,7 +1557,7 @@ input::placeholder {
   height: 160px;
   border: 1px solid #EAEAEA;
   border-radius: 8px;
-  background-color: white;
+  background-color: #FFFFFF;
   margin-left: 16px;
   margin-top: 16px; }
 
@@ -1650,7 +1648,7 @@ input::placeholder {
   margin-top: 16px; }
 
 .conditions-slide {
-  background-color: white;
+  background-color: #FFFFFF;
   border: 1px solid #EAEAEA;
   border-radius: 8px; }
 
@@ -1672,7 +1670,7 @@ input::placeholder {
   width: 119px;
   height: 32px;
   background-color: #FF3E79;
-  color: white;
+  color: #FFFFFF;
   border-radius: 16px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1690,7 +1688,7 @@ input::placeholder {
   .conditions__shadow {
     display: none; }
   .conditions-wrapper {
-    box-shadow: 0 1px 0 10px white;
+    box-shadow: 0 1px 0 10px #FFFFFF;
     border-radius: 6px;
     width: 720px;
     margin: 0 auto; }
@@ -1698,7 +1696,7 @@ input::placeholder {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    box-shadow: inset 0 1px 0 6px white;
+    box-shadow: inset 0 1px 0 6px #FFFFFF;
     border-left: transparent;
     border-right: transparent;
     border-top: transparent;
