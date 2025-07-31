@@ -1684,7 +1684,8 @@ input::placeholder {
   .conditions {
     position: relative;
     width: 100%;
-    margin-left: 8px; }
+    margin-left: 8px;
+    margin-top: 60px; }
   .conditions__shadow {
     display: none; }
   .conditions-wrapper {
@@ -1736,8 +1737,6 @@ input::placeholder {
     margin-top: 0; } }
 
 @media (min-width: 1440px) {
-  .conditions {
-    margin-top: 60px; }
   .conditions-wrapper {
     width: 1056px; }
   .services {
